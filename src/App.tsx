@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card } from './components/Card';
+import 'antd/dist/antd.css';
+import { SingleCard } from './components/SingleCard';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         Hello
       </header>
-      <Card />
+      <SingleCard />
     </div>
   );
 }
